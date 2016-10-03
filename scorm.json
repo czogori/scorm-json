@@ -1,0 +1,19 @@
+{
+    "model": {
+        "cmi.core._children": {
+            "lms_mandatory": true,
+            "read_only": true,
+            "type": "CMIString255",
+            "definition": "The _children keyword is used to determine all of the elements in the core category that are supported by the LMS. If an element has no children, but is supported, an empty string is returned. If an element is not supported, an empty string is returned. A subsequent request for last error can verify that the element is not supported.",
+            "usage": "To determine which cmi.core data elements are supported by the LMS.",
+            "format": "The return value is a comma separated list of all of the element names in thecore category that are supported by the LMS."
+        },
+        "cmi.core.student_id": {
+            "lms_mandatory": true,
+            "read_only": true,
+            "type": "CMIIdentifier",
+            "definition": "Unique alpha-numeric code / identifier that refers to a single user of the LMS system.",
+            "usage": "Used to uniquely identify a student.",
+            "format": "Up to 255 alpha-numeric characters with no spaces. Dashes (or hyphen) andthe underscore are legal. Periods are illegal. Case insensitive.",
+    }
+}
