@@ -1,0 +1,14 @@
+{
+    "name": "czogori/scorm-json",
+    "description": "SCORM model definition",
+    "keywords": [ "SCORM" ],
+    "homepage": "https://github.com/czogori/scorm-json",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Arek Jaskólski",
+            "email": "arek.jaskolski@gmail.com"
+        }
+    ]
+}
